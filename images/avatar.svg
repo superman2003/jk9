@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240">
+  <!-- 背景 -->
+  <rect width="200" height="240" fill="#f0f0f0"/>
+  
+  <!-- 头部 -->
+  <ellipse cx="100" cy="90" rx="60" ry="70" fill="#ffdbac"/>
+  
+  <!-- 头发 -->
+  <path d="M 40 90 C 40 40, 160 40, 160 90 L 160 60 C 160 30, 40 30, 40 60 Z" fill="#4a2700"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="75" cy="85" rx="8" ry="6" fill="#ffffff"/>
+  <ellipse cx="125" cy="85" rx="8" ry="6" fill="#ffffff"/>
+  <circle cx="75" cy="85" r="4" fill="#663300"/>
+  <circle cx="125" cy="85" r="4" fill="#663300"/>
+  
+  <!-- 眉毛 -->
+  <path d="M 65 75 C 70 70, 80 70, 85 75" fill="none" stroke="#4a2700" stroke-width="2"/>
+  <path d="M 115 75 C 120 70, 130 70, 135 75" fill="none" stroke="#4a2700" stroke-width="2"/>
+  
+  <!-- 鼻子 -->
+  <path d="M 100 90 L 95 110 L 105 110 Z" fill="#ffcfba"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M 80 125 C 90 135, 110 135, 120 125" fill="none" stroke="#cc9999" stroke-width="2"/>
+  
+  <!-- 耳朵 -->
+  <ellipse cx="40" cy="90" rx="8" ry="15" fill="#ffdbac"/>
+  <ellipse cx="160" cy="90" rx="8" ry="15" fill="#ffdbac"/>
+  
+  <!-- 脖子 -->
+  <rect x="85" y="150" width="30" height="20" fill="#ffdbac"/>
+  
+  <!-- 衣领 -->
+  <path d="M 70 170 L 85 170 L 85 190 L 70 190 Z" fill="#ffffff"/>
+  <path d="M 130 170 L 115 170 L 115 190 L 130 190 Z" fill="#ffffff"/>
+  <path d="M 85 170 L 115 170 L 115 240 L 85 240 Z" fill="#ffffff"/>
+</svg> 

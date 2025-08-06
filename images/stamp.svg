@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
+  <style>
+    @font-face {
+      font-family: 'FangSong';
+      src: local('FangSong'), local('仿宋'), local('FangSong_GB2312'), local('SimSun'), local('宋体');
+    }
+    
+    text {
+      font-family: 'FangSong', 'SimSun', serif;
+      font-weight: bold;
+    }
+  </style>
+  
+  <!-- 整个印章组，添加旋转变换 -->
+  <g transform="rotate(0, 65, 65)">
+    <!-- 印章背景 - 浅红色半透明圆形 -->
+    <circle cx="65" cy="65" r="60" fill="rgba(255,0,0,0.05)" stroke="#ff6666" stroke-width="2"/>
+    
+    <!-- 外圈文字 - 连续弧形展示 -->
+    <path id="circleArc" d="M 40 100 A 42 42 0 1 1 90 100" fill="none" />
+    <text>
+      <textPath href="#circleArc" startOffset="8%" fill="#ff6666" font-size="14" font-weight="bold" letter-spacing="0">
+        垫江县桂阳社区卫生服务中心
+      </textPath>
+    </text>
+    
+    <!-- 红星 - 平放的五角星 -->
+    <polygon points="65,45 69,56 81,56 72,63 76,74 65,68 54,74 58,63 49,56 61,56" fill="#ff6666"/>
+    
+    <!-- 下半部分水平文字第一行 -->
+    <text x="65" y="95" fill="#ff6666" font-size="9" font-weight="bold" text-anchor="middle">
+      从业人员预防性
+    </text>
+    
+    <!-- 下半部分水平文字第二行 -->
+    <text x="65" y="107" fill="#ff6666" font-size="9" font-weight="bold" text-anchor="middle">
+      健康体检专用章
+    </text>
+  </g>
+</svg> 
